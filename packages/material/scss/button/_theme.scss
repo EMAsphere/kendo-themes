@@ -81,6 +81,16 @@
         box-shadow: none;
     }
 
+    //DropDown Button
+    .k-dropdown-button {
+        @extend .k-text-selection;
+        @include fill(
+            $dropdownbutton-text,
+            $dropdownbutton-bg,
+            $dropdownbutton-border
+        );
+    }
+
     // Button group
     .k-button-group {
         box-shadow: $button-shadow;

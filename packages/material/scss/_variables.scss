@@ -683,6 +683,8 @@ $button-border-radius: $border-radius !default;
 
 $button-padding-x: $padding-x !default;
 $button-padding-y: 8px !default;
+$button-font-family: $font-family !default;
+$button-font-size: $font-size !default;
 $button-line-height: (20 / 14) !default;
 
 $button-padding-x-sm: $button-padding-x / 2 !default;
@@ -776,6 +778,18 @@ $flat-button-hover-opacity: .12 !default;
 $flat-button-focused-opacity: .12 !default;
 $flat-button-active-opacity: .16 !default;
 $flat-button-selected-opacity: .22 !default;
+
+
+// Dropdown button
+$dropdownbutton-border-width: 0 !default;
+$dropdownbutton-font-family: $font-family !default;
+$dropdownbutton-font-size: $font-size !default;
+$dropdownbutton-line-height: $form-line-height !default;
+
+$dropdownbutton-bg: $component-bg !default;
+$dropdownbutton-text: $component-text !default;
+$dropdownbutton-border: $component-border !default;
+
 
 // Action buttons
 $action-button-text: rgba( $primary, .87 ) !default;
