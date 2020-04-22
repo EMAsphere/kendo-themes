@@ -6,58 +6,11 @@
 
 
     // Header and footer
-    .k-gantt-toolbar {
-
-        .k-button {
-            @extend .k-button-flat;
-            padding: $button-padding-y $button-padding-x;
-        }
-    }
+    .k-gantt-toolbar {}
 
 
     // View switcher
-    .k-gantt-views {
-
-        li,
-        li.k-state-hover,
-        li.k-state-selected {
-            color: inherit;
-            background: none;
-        }
-        li a {
-            @extend .k-button-flat;
-            padding: $button-padding-y $button-padding-x;
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-        li a::before {
-            @extend .k-button-overlay;
-            display: block;
-        }
-        li.k-state-selected a::before {
-            @include opacity( $flat-button-selected-opacity );
-        }
-        li.k-state-focused a::before,
-        li a.k-state-focused::before {
-            @include opacity( $flat-button-focused-opacity );
-        }
-
-        &.k-state-expanded {
-            li {
-                margin: 0;
-                border-radius: 0;
-            }
-            li + li {
-                margin: 0;
-            }
-            .k-current-view ~ li a {
-                padding-top: $list-item-padding-y;
-                padding-bottom: $list-item-padding-y;
-                line-height: 2;
-            }
-        }
-    }
+    .k-gantt-views {}
 
 
     //Timeline
