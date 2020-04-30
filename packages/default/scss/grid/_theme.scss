@@ -119,15 +119,16 @@
         .k-grid-content-locked {
             @include fill( $border: $grid-sticky-header-border );
 
-            td {
-                @include fill(
-                    $grid-sticky-text,
-                    $grid-sticky-bg,
-                    $grid-sticky-border
-                );
+            tr {
+                color: $grid-sticky-text;
+                background-color: $grid-sticky-bg;
             }
 
-            .k-alt td {
+            td {
+                border-color: $grid-sticky-border;
+            }
+
+            .k-alt {
                 @include fill( $bg: $grid-sticky-alt-bg );
             }
 
