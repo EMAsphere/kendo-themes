@@ -573,8 +573,8 @@ $node-selected-gradient: null !default;
 
 
 // List item
-$list-item-padding-x: $dropdown-item-padding-x !default;
-$list-item-padding-y: 3px !default;
+$list-item-padding-x: 1rem;
+$list-item-padding-y: .5rem;
 
 $list-item-bg: null !default;
 $list-item-text: $component-text !default;
@@ -1028,7 +1028,7 @@ $picker-icon-offset: calc( #{$picker-select-calc-size} + #{$picker-select-border
 
 // Popup
 $popup-padding-x: 0 !default;
-$popup-padding-y: $dropdown-padding-y !default;
+$popup-padding-y: 0;
 $popup-border-width: 1px !default;
 $popup-border-radius: $border-radius !default;
 
@@ -1156,7 +1156,7 @@ $combobox-select-focused-shadow: $button-pressed-shadow !default;
 
 // Dropdownlists
 $dropdownlist-text: $button-text !default;
-$dropdownlist-bg: $button-bg !default;
+$dropdownlist-bg: white;
 $dropdownlist-border: $button-border !default;
 $dropdownlist-gradient: $button-gradient !default;
 
@@ -1610,8 +1610,8 @@ $menu-font-family: $font-family !default;
 $menu-font-size: $font-size !default;
 $menu-line-height: $line-height !default;
 
-$menu-bg: $header-bg !default;
-$menu-text: $header-text !default;
+$menu-bg: transparent;
+$menu-text: white;
 $menu-border: $header-border !default;
 $menu-gradient: null !default;
 
@@ -1662,9 +1662,9 @@ $menu-popup-text: $popup-text !default;
 $menu-popup-border: $popup-border !default;
 $menu-popup-gradient: null !default;
 
-$menu-popup-item-padding-x: $list-item-padding-x !default;
-$menu-popup-item-padding-y: $list-item-padding-y !default;
-$menu-popup-item-padding-end: calc( #{$list-item-padding-x * 2} + #{$icon-size} ) !default;
+$menu-popup-item-padding-x: 2rem;
+$menu-popup-item-padding-y: .8rem;
+$menu-popup-item-padding-end: 2rem;
 $menu-popup-item-spacing: 0 !default;
 $menu-popup-item-icon-spacing: $icon-spacing !default;
 
